@@ -2,7 +2,7 @@ import pymysql
 
 host = 'localhost'
 usuario = 'root'
-senha = 'Vitinho07'
+senha = 'SUA_SENHA'
 banco = 'controle_gastos'
 
 # Conectar ao banco de dados
