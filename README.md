@@ -15,21 +15,11 @@ o nome do usuário.
 
 ## Back-end
 - Python
-- MySQL
+- sqlite3
 
 ## Requirements
 - Python 3.10.4
-- PyMySql 1.1.0
-- MySQL 8.0.34
-- Dentro do MySQL você deve:
-  - Criar um banco de dados com o nome "controle_gastos". Use o comando: ```CREATE DATABASE controle_gastos;```
-  - Criar 3 tabelas específicas. Use os comandos a seguir: ```CREATE TABLE `controle_gastos`.`gastos` (`IdGasto` INT, `Nome` VARCHAR(45), `Valor` FLOAT, PRIMARY KEY (`IdGasto`));```, ```CREATE TABLE `controle_gastos`.`renda_mensal` (
-  `renda_mensal` FLOAT);``` e ```CREATE TABLE `controle_gastos`.`user` (
-  `user` VARCHAR(50));```.
-  - Se esses passos não forem seguidos corretamente, o programa corre o risco de quebrar. Note que os nomes das tabelas e do banco de dados devem ser exatamente como estão nos comandos, caso contrário, serão necessárias mudanças ou no código Python, ou nos nomes em si.
-- No Python você deve:
-  - Se certificar de mudar a senha do seu MySQL no arquivo ```database.py```. A mudança deve ser realizada na variável iniciada na 5ª linha.
-  - Se a senha não corresponder à sua senha de acesso ao MySQL, o programa não consegue se conectar ao banco de dados e quebra.
+- db-sqlite3 0.0.1
 
 [tkdesigner]: https://github.com/ParthJadhav/Tkinter-Designer
 [figma]: https://www.figma.com/
